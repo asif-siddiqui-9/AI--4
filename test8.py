@@ -11,7 +11,7 @@ if not OPENAI_API_KEY:
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # ---------- PAGE CONFIG ----------
-st.set_page_config(page_title="AI Powered Bot", page_icon="icon.png", layout="centered")
+st.set_page_config(page_title="AI Powered Bot", page_icon="icon2.png", layout="centered")
 
 # ---------- LOAD ALL CSS FIRST (BEFORE AUTH CHECK) ----------
 st.markdown("""
@@ -1058,3 +1058,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
